@@ -45,7 +45,7 @@ export const Somos = () => {
       <h2 className="titulo-container">Este es nuestro mundo</h2>
       <div className="card-grid">
         <Card
-          srcImg="/public/assets/que-es-dm-admo-ac.jpg"
+          srcImg={`${import.meta.env.BASE_URL}assets/que-es-dm-admo-ac.jpg`}
           text={queEsDistrofia}
         />
         <Card children={videoAdmo} idCssCard="iframe-video" text="¿Que es ADMO?"/>

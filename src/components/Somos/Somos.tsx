@@ -45,7 +45,7 @@ export const Somos = () => {
       <h2 className="titulo-container">Este es nuestro mundo</h2>
       <div className="card-grid">
         <Card
-          srcImg="/admo/src/assets/icons/que-es-dm-admo-ac.jpg"
+          srcImg="../../assets/icons/admo-ac-logotipo-color-mini.png"
           text={queEsDistrofia}
         />
         <Card children={videoAdmo} idCssCard="iframe-video" text="¿Que es ADMO?"/>

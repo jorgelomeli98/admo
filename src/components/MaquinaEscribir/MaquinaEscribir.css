@@ -1,0 +1,77 @@
+.maquina {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/icons/silla-oscura.webp");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trocchi", serif;
+  text-align: center;
+  font-size: 5rem;
+  background-color: rgba(0, 51, 102, 0.5);
+  flex: 1;
+}
+
+.text-container h2 {
+  margin: 1rem;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgba(0, 51, 102, 0.5);
+  flex: 1;
+}
+
+.button-container button {
+  font-family: "Poppins";
+  border: none;
+  color: white;
+  background: #003366;
+  border-radius: 5px;
+  width: 10rem;
+  height: 4rem;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background: #99da37;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1em;
+  background-color: white;
+  margin-left: 5px;
+  animation: blink 1.2s infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  50%{
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }}
+
+@media (max-width: 1150px) {
+  .maquina {
+    min-height: 400px;
+  }
+  .text-container {
+    font-size: 40px;
+  }
+}

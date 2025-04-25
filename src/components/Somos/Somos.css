@@ -1,0 +1,33 @@
+#somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 250, 215)/*rgba(12, 162, 231, 0.795);*/
+}
+
+.card-grid{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 2rem;
+}
+
+.titulo-container{
+    font-size: 4rem;
+    color: #003366;
+}
+
+.children-card{
+
+    width: 100%;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .card-grid{
+        flex-direction: column;
+    }
+    .titulo-container{
+        text-align: center;
+    }
+}

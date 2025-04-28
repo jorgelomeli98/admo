@@ -44,7 +44,7 @@ import { CardProps, SlideProps } from "../components";
 
 //Navbar
 export const navbarItems = [
-  { children: "Inicio", to: "/" },
+  { children: "Inicio", to: "#" },
   { children: "Somos", to: "#somos" },
   { children: "Servicios", to: "#servicios" },
   { children: "Donativos", to: "#donar" },
@@ -288,7 +288,24 @@ export const donativosBazar: CardProps[] = [
 //Carousel
 
 export const novedades: SlideProps[] = [
-  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
-  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
-  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
+  {
+    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
+    showModal: true,
+    listParrafos: primerSlide,
+  },
+  {
+    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
+    showModal: true,
+    listParrafos: primerSlide,
+  },
+  {
+    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
+    showModal: true,
+    listParrafos: primerSlide,
+  },
+];
+
+export const donativosProgramas: SlideProps[] = [
+  { imgSrc: "/admo/assets/electronico.jpg", showModal: false },
+  { imgSrc: "/admo/assets/llaves.jpg", showModal: false },
 ];

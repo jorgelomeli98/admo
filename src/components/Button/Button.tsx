@@ -1,7 +1,8 @@
+import { ReactNode } from "react";
 import "./Button.css";
 
 interface Props {
-  label: string;
+  label: ReactNode;
   onClick: () => void;
   classNameCustom?: string;
 }

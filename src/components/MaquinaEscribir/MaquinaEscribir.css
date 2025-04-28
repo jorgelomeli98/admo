@@ -69,7 +69,7 @@
 
 @media (max-width: 1150px) {
   .maquina {
-    min-height: 400px;
+    min-height: 300px;
   }
   .text-container {
     font-size: 40px;

@@ -5,12 +5,19 @@
   background-color: #003366;/*#0057a8*/
   color: white;
   height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 
 .navbar-brand {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.navbar-spacer {
+  height: 70px; 
 }
 
 .navbar-logo {
@@ -75,6 +82,12 @@
     width: 100%;
     padding: 1rem 0;
   }
+
+  .navbar-spacer {
+    height: 70px;
+  }
+
+  
 
   .navbar-brand {
     width: 100%;

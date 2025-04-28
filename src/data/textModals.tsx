@@ -46,19 +46,19 @@ export const corticoesteroides: JSX.Element[] = [
 
 export const terapias: JSX.Element[] = [
   <h3>Terapias</h3>,
-  <h4>Terapia Respiratoria</h4>,
+  <h3>Terapia Respiratoria</h3>,
   <p>
     Consiste en ayudar a expulsar flemas, así como también, ayuda a fortalecer
     la capacidad respiratoria de nuestros beneficiarios, siempre apoyados con
     equipos médicos especializados, tales como chaleco vibrador, máquina de tos,
     y los ventiladores BIPAP.
   </p>,
-  <h4>Terapia física</h4>,
+  <h3>Terapia física</h3>,
   <p>
     Esta consiste es mantener en movimiento los músculos así como, el
     estiramiento de los mismos tratando de evitar contracturas.
   </p>,
-  <h4>Hidroterapia</h4>,
+  <h3>Hidroterapia</h3>,
   <p>
     Aprovechando las ventajas que el agua tibia ofrece al movimiento y al
     fortalecimiento de los músculos, brindamos la posibilidad de recibir

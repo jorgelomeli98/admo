@@ -10,7 +10,9 @@ export const Navbar = ({ items }: Props) => {
   const [enable, setEnable] = useState(false);
 
   return (
+    <>
     <nav className="navbar">
+      
       <div className="navbar-brand">
         <SmartLink to="/">
           <img
@@ -38,5 +40,9 @@ export const Navbar = ({ items }: Props) => {
         })}
       </ul>
     </nav>
+    <div className="navbar-spacer">
+        
+    </div>
+    </>
   );
 };

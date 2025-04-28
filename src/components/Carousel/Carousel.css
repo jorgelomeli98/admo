@@ -1,6 +1,6 @@
 .carousel {
     margin: 1rem;
-    width: 97%;
+    width: 100%;
     cursor: pointer;
 }
   
@@ -8,12 +8,17 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: brown;
   }
   
 .slide img {
-    width: 100%;
+    width: 97%;
     margin: 0;
     padding: 0;
+  }
+
+  @media (min-width: 1200px) {
+    .slide img {
+      width: 40%;
+    }
   }
   

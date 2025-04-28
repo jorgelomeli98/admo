@@ -1,4 +1,4 @@
-
+import { FaArrowUp } from "react-icons/fa";
 import {
   Navbar,
   Footer,
@@ -6,6 +6,7 @@ import {
   Section,
   Somos,
   Carousel,
+  Button,
 } from "../../components";
 
 import {
@@ -14,6 +15,7 @@ import {
   listCardDonar,
   donativosBazar,
   novedades,
+  donativosProgramas,
 
 } from "../../data";
 
@@ -22,10 +24,12 @@ const Home = () => {
 
   return (
     <div className="page-container">
+      
       <header>
         <Navbar items={navbarItems} />
       </header>
       <main className="content-wrap">
+        <Button classNameCustom="button-inicio" label={<FaArrowUp />} onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}/>
         <MaquinaEscribir text="¿Te imaginas un mundo donde no pudieras moverte?" />
         <Somos />
         <Section id="novedades" tituloSection="Novedades"><Carousel list={novedades}/></Section>
@@ -43,21 +47,8 @@ const Home = () => {
         />
         <Section
           id="donar-bazar"
-          tituloSection="Donativos al Bazar"
-          cards={donativosBazar}
-          columns="5"
-          children={
-            <>
-              <h2>
-                Recibimos los donativos de Lunes a Viernes de 9:00 a 17:00 hr.
-              </h2>
-              <h2>
-                Si el donativo es muy grande y no puedes traerlo a nuestras
-                instalaciones, nosotros vamos por ellos.
-              </h2>
-            </>
-          }
-        />
+          tituloSection="Programas de Donación"
+        ><Carousel list={donativosProgramas}/></Section>
         
       </main>
       <footer>

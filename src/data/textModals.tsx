@@ -1,10 +1,11 @@
 import { JSX } from "react";
+import { Button } from "../components";
 
 const negritas: React.CSSProperties = {
   fontWeight: "bold",
 };
 
-const by = (text: string) => <span style={negritas}>{text}</span>; //by = bolify jeje
+const by = (text: string) => <span className="negritas" style={negritas}>{text}</span>; //by = bolify jeje
 
 //Servicios
 export const investigacion: JSX.Element[] = [
@@ -263,3 +264,9 @@ export const liRopa: JSX.Element[] = [
     <li key="ropa-formal">Ropa formal (sacos, vestidos, corbatas)</li>
   </ul>,
 ];
+
+export const primerSlide: JSX.Element[] = [
+  <p>Hola</p>, 
+  <p>Primer Modal</p>,
+  <Button classNameCustom="button-custom" label="Enviar" onClick={() => {}}/>
+]

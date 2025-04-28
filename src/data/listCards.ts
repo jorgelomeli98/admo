@@ -10,7 +10,15 @@ import {
   FcBiotech,
   FcElectronics,
 } from "react-icons/fc";
-import { FaPaypal, FaBook, FaWhatsapp, FaMapMarkerAlt, FaEnvelope, FaFacebook, FaTwitter } from "react-icons/fa";
+import {
+  FaPaypal,
+  FaBook,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaFacebook,
+  FaTwitter,
+} from "react-icons/fa";
 import { CiBank } from "react-icons/ci";
 import { TbHorseToy } from "react-icons/tb";
 import { GiClothes } from "react-icons/gi";
@@ -30,8 +38,9 @@ import {
   liJuguetes,
   liLibros,
   liRopa,
+  primerSlide,
 } from "./textModals.tsx";
-import { CardProps } from "../components";
+import { CardProps, SlideProps } from "../components";
 
 //Navbar
 export const navbarItems = [
@@ -77,26 +86,26 @@ export const linkRedes = [
     children: "Twitter",
     href: "https://twitter.com/ADMOAC",
     icon: FaTwitter,
-  }
+  },
 ];
 
 export const accesosRapidos = [
   {
     className: "link-footer",
     children: "Inicio",
-    to: "#"
-  }, 
+    to: "#",
+  },
   {
     className: "link-footer",
     children: "Donativos",
-    to: "#donar"
-  }, 
+    to: "#donar",
+  },
   {
     className: "link-footer",
     children: "Servicios",
-    to: "#servicios"
-  }
-]
+    to: "#servicios",
+  },
+];
 
 //Cards
 
@@ -129,6 +138,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: terapias,
   },
   {
@@ -139,6 +149,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: programaEducativo,
   },
   {
@@ -149,6 +160,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: programaRecreacion,
   },
   {
@@ -159,6 +171,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: transporteAdaptadoModal,
   },
   {
@@ -169,6 +182,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: equipoEspecializadoModal,
   },
   {
@@ -179,6 +193,7 @@ export const listCardsServicios: CardProps[] = [
     fontSizeText: "0.8rem",
     alignTextCard: "center",
     showModal: true,
+
     listParrafos: enseresRehabilitacionModal,
   },
 ];
@@ -203,8 +218,9 @@ export const listCardDonar: CardProps[] = [
     heightCard: "200px",
     fontSizeText: "2rem",
     alignTextCard: "start",
-    showModal: true, 
-    listParrafos: inbursaModal
+    showModal: true,
+
+    listParrafos: inbursaModal,
   },
 ];
 
@@ -216,7 +232,8 @@ export const donativosBazar: CardProps[] = [
     heightCard: "150px",
     fontSizeText: "0.9rem",
     alignTextCard: "center",
-    showModal: true, 
+    showModal: true,
+
     listParrafos: donacionesBazar,
   },
   {
@@ -226,8 +243,9 @@ export const donativosBazar: CardProps[] = [
     heightCard: "150px",
     fontSizeText: "0.9rem",
     alignTextCard: "center",
-    showModal: true, 
-    listParrafos: liEquiposElectronicos
+    showModal: true,
+
+    listParrafos: liEquiposElectronicos,
   },
   {
     icon: TbHorseToy,
@@ -237,8 +255,9 @@ export const donativosBazar: CardProps[] = [
     heightCard: "150px",
     fontSizeText: "0.9rem",
     alignTextCard: "center",
-    showModal: true, 
-    listParrafos: liJuguetes
+    showModal: true,
+
+    listParrafos: liJuguetes,
   },
   {
     icon: FaBook,
@@ -248,9 +267,9 @@ export const donativosBazar: CardProps[] = [
     heightCard: "150px",
     fontSizeText: "0.9rem",
     alignTextCard: "center",
-    showModal: true, 
-    listParrafos: liLibros
+    showModal: true,
 
+    listParrafos: liLibros,
   },
   {
     icon: GiClothes,
@@ -260,8 +279,16 @@ export const donativosBazar: CardProps[] = [
     heightCard: "150px",
     fontSizeText: "0.9rem",
     alignTextCard: "center",
-    showModal: true, 
-    listParrafos: liRopa
+    showModal: true,
 
+    listParrafos: liRopa,
   },
+];
+
+//Carousel
+
+export const novedades: SlideProps[] = [
+  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
+  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
+  { imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg", showModal:true, listParrafos:primerSlide},
 ];

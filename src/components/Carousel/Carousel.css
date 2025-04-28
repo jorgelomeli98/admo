@@ -1,0 +1,19 @@
+.carousel {
+    margin: 1rem;
+    width: 97%;
+    cursor: pointer;
+}
+  
+.slide {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: brown;
+  }
+  
+.slide img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  

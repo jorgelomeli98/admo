@@ -1,0 +1,16 @@
+.button-custom {
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    height: auto;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    cursor: pointer;
+    background-color: #99da37;
+    color: white;
+    &:hover{
+        background-color: rgb(221, 250, 215);
+        color: #003366;
+    }
+}

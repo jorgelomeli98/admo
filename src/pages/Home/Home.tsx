@@ -1,9 +1,11 @@
+
 import {
   Navbar,
   Footer,
   MaquinaEscribir,
   Section,
   Somos,
+  Carousel,
 } from "../../components";
 
 import {
@@ -11,9 +13,13 @@ import {
   listCardsServicios,
   listCardDonar,
   donativosBazar,
+  novedades,
+
 } from "../../data";
 
 const Home = () => {
+  
+
   return (
     <div className="page-container">
       <header>
@@ -22,6 +28,7 @@ const Home = () => {
       <main className="content-wrap">
         <MaquinaEscribir text="¿Te imaginas un mundo donde no pudieras moverte?" />
         <Somos />
+        <Section id="novedades" tituloSection="Novedades"><Carousel list={novedades}/></Section>
         <Section
           id="servicios"
           tituloSection="Servicios"
@@ -51,6 +58,7 @@ const Home = () => {
             </>
           }
         />
+        
       </main>
       <footer>
         <Footer />

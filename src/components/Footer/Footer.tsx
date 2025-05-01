@@ -10,9 +10,9 @@ export const Footer = () => {
         <FooterColumn title="Redes Sociales" items={linkRedes} />
         <FooterColumn title="Accesos Rapidos" items={accesosRapidos} />
       </div>
-      <div style={{ textAlign: "center", marginTop: "2rem" }}>
+      <div id="small-footer">
         <small>
-          © ADMO AC 2025 | Sitio rediseñado por{" "}
+          © ADMO AC 2025 | Sitio rediseñado por: {" "}<br id="salto-small"/>
           <a
             id="link-portfolio"
             target="blank"

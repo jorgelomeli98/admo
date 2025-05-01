@@ -14,7 +14,7 @@ export const Navbar = ({ items }: Props) => {
     <nav className="navbar">
       
       <div className="navbar-brand">
-        <SmartLink to="/">
+        <SmartLink to="#">
           <img
             src={`/admo/assets/admo-ac-logotipo-color-mini.png`}
             alt="ADMO Logo"

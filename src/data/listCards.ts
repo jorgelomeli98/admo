@@ -18,6 +18,7 @@ import {
   FaEnvelope,
   FaFacebook,
   FaTwitter,
+  FaInstagram,
 } from "react-icons/fa";
 import { CiBank } from "react-icons/ci";
 import { TbHorseToy } from "react-icons/tb";
@@ -56,8 +57,8 @@ export const navbarItems = [
 export const listLinksContacto = [
   {
     className: "link-footer",
-    children: "33 36 17 31 14",
-    href: "https://wa.me/523336173114",
+    children: "33 19 80 68 84",
+    href: "https://wa.me/523319806884",
     icon: FaWhatsapp,
   },
   {
@@ -86,6 +87,12 @@ export const linkRedes = [
     children: "Twitter",
     href: "https://twitter.com/ADMOAC",
     icon: FaTwitter,
+  },
+  {
+    className: "link-footer",
+    children: "Instagram",
+    href: "https://www.instagram.com/admo_distrofia_muscular",
+    icon: FaInstagram,
   },
 ];
 

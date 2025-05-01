@@ -13,7 +13,6 @@ import {
   navbarItems,
   listCardsServicios,
   listCardDonar,
-  donativosBazar,
   novedades,
   donativosProgramas,
 

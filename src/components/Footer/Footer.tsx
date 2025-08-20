@@ -12,7 +12,7 @@ export const Footer = () => {
       </div>
       <div id="small-footer">
         <small>
-          © ADMO AC 2025 | Sitio rediseñado por: {" "}<br id="salto-small"/>
+          © ADMO AC 2025 | Sitio diseñado por: {" "}<br id="salto-small"/>
           <a
             id="link-portfolio"
             target="blank"

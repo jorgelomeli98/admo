@@ -42,6 +42,7 @@ import {
   primerSlide,
 } from "./textModals.tsx";
 import { CardProps, SlideProps } from "../components";
+import { FaPhone } from "react-icons/fa";
 
 //Navbar
 export const navbarItems = [
@@ -60,6 +61,11 @@ export const listLinksContacto = [
     children: "33 19 80 68 84",
     href: "https://wa.me/523319806884",
     icon: FaWhatsapp,
+  },
+  {
+    className: "link-footer",
+    children: "33 36 17 31 14",
+    icon: FaPhone,
   },
   {
     className: "link-footer",

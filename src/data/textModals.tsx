@@ -286,8 +286,8 @@ export const primerSlide: JSX.Element[] = [
       sobre todo, un mensaje claro: <strong>¡ánimo y disfruten la vida!</strong>{" "}
     </p>
     <h2>Síguenos en nuestras redes:</h2>
-    <ul>
-      <li>
+    <ul className="lista-enlace">
+      <li className="item-enlace">
         <a
           href="http://www.facebook.com/HermandadRuedaPodcast"
           target="_blank"
@@ -296,7 +296,7 @@ export const primerSlide: JSX.Element[] = [
           <FaFacebook /> Facebook
         </a>
       </li>
-      <li>
+      <li className="item-enlace">
         <a
           href="https://www.youtube.com/@hermandaddelaruedapodcast"
           target="_blank"
@@ -306,7 +306,7 @@ export const primerSlide: JSX.Element[] = [
           YouTube
         </a>
       </li>
-      <li>
+      <li className="item-enlace">
         <a
           href="https://open.spotify.com/show/4Pf2DcJhRVyaxQPEAWnPSF"
           target="_blank"
@@ -316,7 +316,7 @@ export const primerSlide: JSX.Element[] = [
           Spotify
         </a>
       </li>
-      <li>
+      <li className="item-enlace">
         <a
           href="https://www.tiktok.com/@lahermandad_delarueda"
           target="_blank"

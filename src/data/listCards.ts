@@ -302,17 +302,7 @@ export const donativosBazar: CardProps[] = [
 
 export const novedades: SlideProps[] = [
   {
-    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
-    showModal: true,
-    listParrafos: primerSlide,
-  },
-  {
-    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
-    showModal: true,
-    listParrafos: primerSlide,
-  },
-  {
-    imgSrc: "/admo/assets/que-es-dm-admo-ac.jpg",
+    imgSrc: "/admo/assets/rueda.jpg",
     showModal: true,
     listParrafos: primerSlide,
   },

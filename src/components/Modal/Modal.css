@@ -1,3 +1,21 @@
+ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+li a:hover{
+  color: #99da37;
+}
+
 .modal-overlay {
     position: fixed;
     top: 0;

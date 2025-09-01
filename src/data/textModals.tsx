@@ -1,11 +1,16 @@
 import { JSX } from "react";
 import { Button } from "../components";
+import { FaFacebook, FaSpotify, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const negritas: React.CSSProperties = {
   fontWeight: "bold",
 };
 
-const by = (text: string) => <span className="negritas" style={negritas}>{text}</span>; //by = bolify jeje
+const by = (text: string) => (
+  <span className="negritas" style={negritas}>
+    {text}
+  </span>
+); //by = bolify jeje
 
 //Servicios
 export const investigacion: JSX.Element[] = [
@@ -266,7 +271,69 @@ export const liRopa: JSX.Element[] = [
 ];
 
 export const primerSlide: JSX.Element[] = [
-  <p>Hola</p>, 
-  <p>Primer Modal</p>,
-  <Button classNameCustom="button-custom" label="Enviar" onClick={() => {}}/>
-]
+  <>
+    <h2>
+      ¡Bienvenidos a <strong>La Hermandad de la Rueda</strong>!
+    </h2>
+    <p>
+      Somos un grupo de 6 jóvenes con <strong>Distrofia Muscular</strong> que
+      decidió alzar la voz y compartir sus experiencias a través de un{" "}
+      <strong>podcast</strong> lleno de buena vibra, aprendizaje y muchas
+      historias reales.
+    </p>
+    <p>
+      Aquí encontrarás charlas sobre la vida con DMD, reflexiones, anécdotas y,
+      sobre todo, un mensaje claro: <strong>¡ánimo y disfruten la vida!</strong>{" "}
+    </p>
+    <h2>Síguenos en nuestras redes:</h2>
+    <ul>
+      <li>
+        <a
+          href="http://www.facebook.com/HermandadRuedaPodcast"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook /> Facebook
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/@hermandaddelaruedapodcast"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaYoutube />
+          YouTube
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://open.spotify.com/show/4Pf2DcJhRVyaxQPEAWnPSF"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaSpotify />
+          Spotify
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.tiktok.com/@lahermandad_delarueda"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTiktok />
+          TikTok
+        </a>
+      </li>
+    </ul>
+
+    <Button
+      classNameCustom="button-custom"
+      label="Ir"
+      onClick={() => {
+        window.open("http://www.facebook.com/HermandadRuedaPodcast", "_blank");
+      }}
+    />
+  </>,
+];

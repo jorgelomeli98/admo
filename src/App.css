@@ -1,6 +1,3 @@
-
-
-
 html,
 body,
 #root {
@@ -22,5 +19,3 @@ body,
 .content-wrap {
   flex: 1;
 }
-
-

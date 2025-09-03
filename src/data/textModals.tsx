@@ -337,3 +337,43 @@ export const primerSlide: JSX.Element[] = [
     />
   </>,
 ];
+
+export const segundoSlide = [
+  <>
+    <h1>
+      Día Mundial de la Concientización sobre la Distrofia Muscular de Duchenne
+    </h1>
+    <p>
+      Cada 7 de septiembre se conmemora el{" "}
+      <strong>
+        Día Mundial de la Concientización sobre la Distrofia Muscular de
+        Duchenne (DMD)
+      </strong>
+      , una enfermedad genética poco frecuente que afecta principalmente a niños
+      y que provoca debilidad muscular progresiva.
+    </p>
+    <p>
+      La DMD es causada por la ausencia de <strong>distrofina</strong>, una
+      proteína esencial para el buen funcionamiento de los músculos. Aunque
+      actualmente no existe una cura definitiva, los avances en investigación y
+      el acceso a terapias y atención integral han permitido mejorar la calidad
+      y esperanza de vida de quienes viven con esta condición.
+    </p>
+    <p>
+      Este día busca visibilizar la importancia de la{" "}
+      <strong>
+        detección temprana, promover la inclusión, fortalecer el apoyo a las
+        familias y, sobre todo, fomentar la investigación científica
+      </strong>{" "}
+      que acerque nuevas oportunidades de tratamiento.
+    </p>
+    <p>
+      Unirnos en esta fecha significa dar voz a quienes enfrentan el Duchenne y
+      recordar que,{" "}
+      <strong>
+        con solidaridad, educación y conciencia, podemos contribuir a un futuro
+        con más esperanza y mejores condiciones de vida.
+      </strong>
+    </p>
+  </>,
+];

@@ -40,6 +40,7 @@ import {
   liLibros,
   liRopa,
   primerSlide,
+  segundoSlide,
 } from "./textModals.tsx";
 import { CardProps, SlideProps } from "../components";
 import { FaPhone } from "react-icons/fa";
@@ -305,6 +306,11 @@ export const novedades: SlideProps[] = [
     imgSrc: "/admo/assets/rueda.jpg",
     showModal: true,
     listParrafos: primerSlide,
+  },
+  {
+    imgSrc: "/admo/assets/volvimos.jpg", 
+    showModal: true, 
+    listParrafos: segundoSlide
   },
 ];
 

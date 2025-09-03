@@ -5,14 +5,14 @@ interface ModalProps {
   text?: string;
   onClose: () => void;
   iconModal?: React.ElementType;
-  listParrafosModal?: JSX.Element[]
+  listParrafosModal?: JSX.Element[];
 }
 
 export const Modal: React.FC<ModalProps> = ({
   text,
   onClose,
   iconModal: Icon,
-  listParrafosModal
+  listParrafosModal,
 }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -20,10 +20,12 @@ export const Modal: React.FC<ModalProps> = ({
         <button className="close-button" onClick={onClose}>
           &times;
         </button>
-        {Icon && <Icon className="icon-modal" size={100}/>}
-        {text ? <p className="text-parrafo">{text}</p> : 
-        <>{listParrafosModal}</>}
-        
+        {Icon && <Icon className="icon-modal" size={100} />}
+        {text ? (
+          <p className="text-parrafo">{text}</p>
+        ) : (
+          <>{listParrafosModal}</>
+        )}
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ export const Footer = () => {
           <a
             id="link-portfolio"
             target="blank"
-            href="https://jorgelomeli98.github.io/portafolioweb/"
+            href="https://jorgelomeli.vercel.app"
           >
             Jorge Lomelí
           </a>
